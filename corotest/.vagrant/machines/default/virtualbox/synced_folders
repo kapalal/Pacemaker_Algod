@@ -1,1 +1,0 @@
-{"virtualbox":{"/vagrant_data":{"guestpath":"/vagrant_data","hostpath":"/opt/projects/NICKLAB/VAGRANT_VMS/data","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"/opt/projects/NICKLAB/VAGRANT_VMS/corotest","disabled":false,"__vagrantfile":true}}}
