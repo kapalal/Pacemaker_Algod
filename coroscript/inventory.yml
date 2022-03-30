@@ -1,0 +1,13 @@
+
+[corocluster]
+node1 ansible_host=192.168.56.10 booth_ip=192.168.56.10 internal_ip=192.168.56.10
+node2 ansible_host=192.168.56.11 booth_ip=192.168.56.11 internal_ip=192.168.56.11
+
+#[corocluster:vars]
+#internal_ip=true
+#corosync_exchange_hosts=false
+#corosync_use_internal_ip=true
+#corosync_hacluster_password='nicktest12345544232'
+#booth_config='setup'
+#hacluster_password='nicktest12345544232'
+#corosync_cluster_settings='stonith-enabled=false'

@@ -1,0 +1,7 @@
+---
+
+- name: Install pacemaker-corosync
+  hosts: corocluster
+  become: true
+  roles:
+    - bloxberg.corosync_pacemaker

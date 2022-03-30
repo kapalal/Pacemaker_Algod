@@ -1,0 +1,16 @@
+group_vars:
+  all:
+    internal_ip:
+    corosync_exchange_hosts: false
+    corosync_use_internal_ip: false
+    corosync_hacluster_password: 'nicktest12345544232'
+    booth_config: 'setup'
+    corosync_web_ui: false
+    corosync_cluster_settings:
+      - key: stonith-enabled
+        value: "false"
+      - key: no-quorum-policy
+        value: ignore
+    corosync_cluster_defaults: [ ]
+
+
